@@ -1,0 +1,6 @@
+# Newly Registered Domains - 2026-03-23
+# Source: domain-scanner (aggregated NRD feeds)
+# https://github.com/cryphorix/nrd-lists
+
+
+# Total: 0 domains
