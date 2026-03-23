@@ -37,15 +37,17 @@ Most NRD lists on GitHub are just mirrors of a single source, typically whoisds.
 
 | File | Description | Update Frequency |
 |------|-------------|-----------------|
-| `nrd-today.txt` | Domains registered today (all sources) | Daily |
+| `nrd-today.txt` | Domains ingested in the last 24 hours | Daily |
 | `nrd-week.txt` | Domains from the last 7 days | Daily |
 | `czds-nrd.txt` | CZDS zone file new domains (last 24h) | Daily |
 | `ct-domains.txt` | CT log discoveries (last 24h) | Daily |
 | `nrd-full.txt` | Complete master list (all domains in DB) | Daily |
 
+Large feeds are automatically split into parts (e.g. `nrd-full-part1.txt`, `nrd-full-part2.txt`) to stay within GitHub's file size limits.
+
 ## Usage
 
-Raw URLs for direct consumption:
+Raw URLs for direct consumption (check the repo for split parts if the single file is not present):
 
 ```
 https://raw.githubusercontent.com/cryphorix/nrd-lists/main/nrd-today.txt
