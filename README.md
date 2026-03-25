@@ -201,7 +201,7 @@ suspicious = df[df['nameserver'] == 'ns1.suspicious-host.com']
 
 | Source | Total domains | Zone metadata | AXFR detection | Parquet export |
 |--------|--------------|---------------|----------------|----------------|
-| **cryphorix/threat-feeds** | **63,554,536+ (growing daily)** (growing daily) | **130.9M NS records, 831 TLDs** | **Yes** | **Yes** |
+| **cryphorix/threat-feeds** | **63,554,536+** (growing daily) | **130.9M NS records, 831 TLDs** | **Yes** | **Yes** |
 | cenk/nrd | ~3M | No | No | No |
 | shreshta-labs/newly-registered-domains | Unknown | No | No | No |
 | cbuijs/nrd | Unknown | No | No | No |
